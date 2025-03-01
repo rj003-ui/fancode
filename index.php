@@ -1,6 +1,6 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = 'https://'.$get;
+$mpdUrl = $get;
 
 
 // $context = stream_context_create($mpdheads);
